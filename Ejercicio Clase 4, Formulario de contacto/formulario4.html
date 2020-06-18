@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Hola, esto es un formulario de contacto"
+    />
+    <link rel="stylesheet" href="formulario4.css" />
+    <link rel="icon" type="icon" href="icon.png" />
+    <title>Formulario de contacto</title>
+  </head>
+  <body>
+    <img src="photo.jpg" alt="Mi foto, para saber con quién te contactas" />
+    <form action="#" method="POST" class="form">
+      <h2 class="form__title">Contact Me</h2>
+      <p class="form__description">
+        Si estás interesad@ en mi perfil, escríbeme y te enviaré una copia de mi
+        CV
+      </p>
+      <div class="form__name">
+        <label for="comentario">Nombre:*</label>
+        <input
+          type="text"
+          name="Nombre"
+          placeholder="📝 Nombre"
+          aria-required="true"
+          required="required"
+        />
+      </div>
+      <div class="form__email">
+        <label for="comentario">Correo Electrónico:*</label>
+        <input
+          type="text"
+          name="Correo Electrónico"
+          placeholder="📩 Correo Electrónico"
+          aria-required="true"
+          required="required"
+        />
+      </div>
+      <div class="form__comment">
+        <label for="comentario">Comentario:</label>
+        <textarea
+          name="comentario"
+          placeholder="Escriba aquí su comentario..."
+        ></textarea>
+      </div>
+      <input class="form__button" type="button" value="Enviar" id="btn" />
+    </form>
+    <footer class="footer">
+      <h1>Bootcamp PionerasDev & Globant</h1>
+
+      <section class="footer__author">
+        ©Verónica Alcaraz👩‍💻 - 2020
+      </section>
+    </footer>
+    <script src="./formulario4.js"></script>
+  </body>
+</html>

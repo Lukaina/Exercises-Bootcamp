@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Alfarería Ossinisagil</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+  <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+  <link rel="icon" type="icon" href="icon.png"> 
+</head>
+
+<body>
+  <header class="header">
+
+      <h1 class="store">Tienda Alfarería Ossinisagil</h1>
+
+      <nav class="menu">
+        <a href="#name"><i class="fas fa-house-user"> Acerca de</i></a>
+        <a href="#products"><i class="fas fa-mortar-pestle"> Productos</i></a>
+        <a href="#contact"><i class="fas fa-envelope"> Contacto</i></a>
+      </nav>
+  </header>
+ 
+  <section class="container">
+    <article class="about">
+      <h2 class="name"><span>Acerca de nosotr@s</span></h2>
+        <h3>Alfarería tradicional y artesanal</h3>
+          <p>La alfarería es un arte que se remonta desde el período Paleolítico, ha pasado de cultura en cultura y consiste en la elaboración y comercialización de piezas hechas a mano. Por ejemplo, hoy tenemos el privilegio de poder admirar desde piezas egipcias datadas en el año 3.700 a.C, hasta otras pertenecientes a las culturas que poblaron la Península Ibérica durante la Edad del Bronce pasando por cerámicas griegas, íberas o romanas. 
+          En esta tienda encontrarás piezas únicas de alfarería tradicional, moldeadas manualmente por <a href="https://www.instagram.com/ossinissagil/" target="_blank" rel="noopener">Ossinissa Gil</a>, aprendiz de alfarero tradicional, en Medellín - Colombia, que mantiene este arte y legado histórico.
+          Toda una variedad de piezas a escoger, ya sea para que tengas en cualquier espacio de tu hogar, como para regalar.
+          Nada industrial, sino artesanal. Elaboración desde cero.</p><br>
+            <a class="link" href="http://www.artesaniasdecolombia.com.co:8080/PortalAC/Noticia/colombia-artesanal-la-ceramica-una-tradicion-que-recorre-colombia_7393" target="_blank" rel="noopener">➤Da clic aquí y descubre más sobre la alfarería...</a>
+    </article>
+
+    <article class="products" id="products">
+        <h2 class="name"><span>Productos</span></h2>
+          <p>Piezas distintas, ya sea en tamaños, colores, simbolos, técnicas... 
+          Todo es hecho en arcilla o barro, con engobes, es decir, barros de colores y óxidos. Como la técnica es tradicional, no hay un molde, sino que es un modelado a mano alzada, en donde la imaginación juega un papel muy importante. Cada vez que compras una pieza, compras el esfuerzo y dedicación de alguien.
+          Compras historia, saberes, tradición, un legado que nos acompaña hace siglos.<br>
+          ➤ Pasa el cursor o da clic a las imagenes para ver más de cerca los productos. Si decides lo segundo, ahora da clic en las flechas que aparecen a los lados para ver producto por producto en esta pequeña galeria. </p>
+
+            <ul class="galery">
+              <li><a href="#prod1"><img src="Images/prod1.jpg"></a><li>
+              <li><a href="#prod2"><img src="Images/prod2.jpg"></a><li>
+              <li><a href="#prod3"><img src="Images/prod3.jpg"></a><li>
+              <li><a href="#prod4"><img src="Images/prod4.jpg"></a><li>
+              <li><a href="#prod5"><img src="Images/prod5.jpg"></a><li>
+              <li><a href="#prod6"><img src="Images/prod6.jpg"></a><li>
+            </ul>
+
+        <div class="modal" id="prod1">
+          <h3>Matera barco</h3>
+          <div class="image">
+            <a href="#prod6">&#60;</a> <!---Código Hexadecimal para este simbolo: (<)-->
+            <a href="#prod2"><img src="Images/prod1.jpg"></a>
+            <a href="#prod2">></a>
+          </div>
+          <a class="close" href="#products">Cerrar</a> 
+        </div>
+
+        <div class="modal" id="prod2">
+          <h3>Portavelas. Lámpara.</h3>
+          <div class="image">
+            <a href="#prod1">&#60;</a>
+            <a href="#prod3"><img src="Images/prod2.jpg"></a>
+            <a href="#prod3">></a>
+          </div>
+          <a class="close" href="#products">Cerrar</a>
+        </div>
+
+        <div class="modal" id="prod3">
+          <h3>Joyero 1</h3>
+          <div class="image">
+            <a href="#prod2">&#60;</a>
+            <a href="#prod4"><img src="Images/prod3.jpg"></a>
+            <a href="#prod4">></a>
+          </div>
+          <a class="close" href="#products">Cerrar</a>
+        </div>
+
+        <div class="modal" id="prod4">
+          <h3>Recipiente</h3>
+          <div class="image">
+            <a href="#prod3">&#60;</a>
+            <a href="#prod5"><img src="Images/prod4.jpg"></a>
+            <a href="#prod5">></a>
+          </div>
+          <a class="close" href="#products">Cerrar</a>
+        </div>
+
+        <div class="modal" id="prod5">
+          <h3>Joyero 2</h3>
+          <div class="image">
+            <a href="#prod4">&#60;</a>
+            <a href="#prod6"><img src="Images/prod5.jpg"></a>
+            <a href="#prod6">></a>
+          </div>
+          <a class="close" href="#products">Cerrar</a>
+        </div>
+        
+        <div class="modal" id="prod6">
+          <h3>Matera rana</h3>
+          <div class="image">
+            <a href="#prod5">&#60;</a>
+            <a href="#prod1"><img src="Images/prod6.jpg"></a>
+            <a href="#prod1">></a>
+          </div>
+          <a class="close" href="#products">Cerrar</a>
+        </div>
+
+
+        <table style="align-self: center;">
+          <thead>
+          <tr>
+            <th>Pieza</th>
+            <th>Descripción</th>
+            <th>Técnica</th>
+            <th>Material</th>
+            <th>Cantidad</th>
+            <th>Tamaño</th>
+            <th>Disponible</th>
+            <th>Precio</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Matera barco</td>
+            <td>Matera del barco de Chanquete.</td>
+            <td>Técnica de placas</td>
+            <td>Almagre, tegue y óxidos. Aún sin guisar.</td>
+            <td>1</td>
+            <td>Mediano</td>
+            <td>Sí</td>
+            <td>$45.000</td>
+          </tr>
+          <tr>
+            <td>Portavelas. Lámpara.</td>
+            <td>Lámpara o también candil de velas.</td>
+            <td>Modelado y calado.</td>
+            <td>Uso de engobes en decorado. Aún por guisar.</td>
+            <td>1</td>
+            <td>Mediano</td>
+            <td>Sí</td>
+            <td>$35.000</td>
+          </tr>
+          <tr>
+            <td>Joyero 1</td>
+            <td>Joyero venus meditación, uroboro.</td>
+            <td>Técnica de rollos y modelado mano alzada.</td>
+            <td>Uso de engobes (natural y mixto), almagres. Uso de engobes en decorado. Aún por guisar.</td>
+            <td>1</td>
+            <td>Mediano</td>
+            <td>Sí</td>
+            <td>$45.0000</td>
+          </tr>
+          <tr>
+            <td>Recipiente.</td>
+            <td>Recipiente de Anubis. Dios del inframundo egipcio (Kemet). Guía de los/as muertos/as.</td>
+            <td>Técnica de rollos y modelado.</td>
+            <td>Decorado con engobes, almagre y óxido. Aún por guisar.</td>
+            <td>1</td>
+            <td>Mediano</td>
+            <td>Sí</td>
+            <td>$45.000</td>
+          </tr>
+          <tr>
+            <td>Joyero 2</td>
+            <td>Joyero. Deidad cartaginesa Tanit-Astarté. Ciclo lunar.</td>
+            <td>Técnica de rollos y modelado.</td>
+            <td>Uso de almagre, óxido y engobes en decorado. Aún por guisar.</td>
+            <td>1</td>
+            <td>Mediano</td>
+            <td>Sí</td>
+            <td>$45.000</td>
+          </tr>
+          <tr>
+            <td>Matera rana.</td>
+            <td>Matera rana</td>
+            <td>Modelado</td>
+            <td>Uso de almagre, óxido y engobes en decorado.</td>
+            <td>1</td>
+            <td>Mediano</td>
+            <td>No, vendida. Pero se pueden encargar con el mismo estilo.</td>
+            <td>$45.000</td>
+          </tr>
+        </table>
+    </article>
+  </section>
+    <article class="contact" id="contact">
+      <h2 class="name"><span>Contacto</span></h2>
+        <div class= social>
+          <ul>
+            <li><a href="https://www.instagram.com/ossinissagil/" aria-label="Ir al Instagram de la tienda" class="fab fa-instagram" target="_blank" rel="noopener"></a></li>
+            <li><a href="https://web.whatsapp.com/send?phone=+573023178713&text=Hola,%20me%20gustaría%20saber%20más%20sobre%20los%20cursos%20y%20las%20piezas%20de%20alfarería,%20por%20favor.%20Gracias." aria-label="Ir al WhatsApp de la tienda y preguntar por las piezas" class="fab fa-whatsapp" target="_blank" rel="noopener"></a></li>
+          </ul>
+        </div>
+          <p>Luego de leer acerca de la alfarería y ver los productos, quizá te interese aprender este arte. Hay una gran noticia, se hacen cursos, los Jueves y Viernes, de 2pm a 6pm, 5 secciones. ¡No te arrepentirás! El aprendizaje será enorme.
+          ¡Ojo! son cupos limitados. Para más información: <a id="number" href="https://web.whatsapp.com/send?phone=+573023178713&text=Hola,%20me%20gustaría%20saber%20más%20sobre%20los%20cursos%20y%20las%20piezas%20de%20alfarería,%20por%20favor.%20Gracias." aria-label="Ir al WhatsApp de la tienda y preguntar por las piezas y cursos" target="_blank" rel="noopener"><i class="fab fa-whatsapp"> Contáctanos</i></a></p>
+    </article>
+    <footer>
+      <h1>Bootcamp PionerasDev & Globant</h1>
+        <span>Copyright&copy; 2020 - Página creada por Verónica Alcaraz👩‍💻 para la Bootcamp y en regalo a su mejor amigo, que lucha incansablemente - Todos los derechos reservados</span>
+    </footer>
+  </header>
+</body>
+</html>

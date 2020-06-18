@@ -1,0 +1,16 @@
+body {
+  background-image: url(form.jpg);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+form {
+  width: 450px;
+  height: 550px;
+  font-size: 25px;
+  color: #000;
+  border-radius: 13px;
+  margin: auto;
+}
+/*# sourceMappingURL=ejercicio8.css.map */

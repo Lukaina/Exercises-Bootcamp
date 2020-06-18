@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scholarship Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="icon" href="icon.png" />
+  </head>
+  <body>
+    <div class="form_container">
+      <h1>Form</h1>
+      <form action="./confirmacion.html" method="POST">
+        <div>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div>
+          <label for="lastname">Last Name:</label>
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            placeholder="Enter your last name"
+          />
+        </div>
+        <div>
+          <label for="">Email:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="ejemplo@mail.com"
+          />
+        </div>
+        <div>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" />
+        </div class="group-radio">
+        <div>
+          <p>Gender:</p>
+          <input type="radio" name="gender" value="female" id="female" />
+          <label for="female">Female</label>
+          <br />
+          <input type="radio" name="gender" value="male" id="male" />
+          <label for="male">Male</label>
+          <br />
+          <input type="radio" name="gender" value="other" id="other" />
+          <label for="other">Other</label>
+        </div>
+        <div>
+          <p>Areas of interest:</p>
+          <input
+            type="checkbox"
+            name="interest"
+            id="data_science"
+            value="data_science"
+          />
+          <label for="data_science">Data science</label>
+          <br />
+          <input type="checkbox" name="interest" id="math" value="math" />
+          <label for="math">Pure math</label>
+          <br />
+          <input type="checkbox" name="interest" id="logic" value="logic" />
+          <label for="logic">Mathematical logic</label>
+        </div>
+        <div>
+          <div class="reason">
+            <label for="user_reason"
+              >¿Why are you interested in applying for the scholarship?</label
+            >
+          </div>
+          <br />
+          <textarea
+            name="user_reason"
+            id="user_reason"
+            cols="40"
+            rows="5"
+            placeholder="Write here your reasons..."
+          ></textarea>
+        </div>
+        <div class="password">
+          <p>Password:</p>
+          <input
+            type="password"
+            id="identifier"
+            name="name"
+            placeholder="*****"
+          />
+          <div class="buttons">
+            <button type="submit" onclick="Sendform();">Send</button>
+            <button type="reset">Reset</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>

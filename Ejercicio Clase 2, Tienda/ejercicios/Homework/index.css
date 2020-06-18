@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:ital,wght@0,700;1,700&family=Kaushan+Script&family=Merienda:wght@400;700&family=Satisfy&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid #302626;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 3px #070505;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./alf.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .store {
+        background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+        opacity: 0.6;
+        height: 100vh;
+        width: 100vw;
+        font-size: 80px;
+        font-weight: 400;
+        font-family: 'Merienda', cursive;
+        font-style: oblique;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        text-shadow: 2px 2px white, -1px -1px #333;
+    }
+
+.menu {
+    background-color: #302626;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    /* margin-top: calc(100vh - 130px); */
+}
+
+    .menu a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px 30px;
+        margin: 0px 10px;
+        font-size: 23px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: none;
+        background-color: whitesmoke;
+        color: #000;
+    }
+
+    .menu a:hover {
+        color: #da821f;
+        transform: translate(10px);
+    }
+
+.container {
+    text-align: center;
+    }
+
+    .about {
+        width: 100%;
+        height: 100vh;
+        background-image: url(./background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 30px;
+        text-align: center;
+        padding: -80px;
+    }
+
+    .about h3 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-family: 'Merienda', cursive;
+        font-size: 25px;
+        padding: 0 130px;
+        text-transform: uppercase;
+    }
+
+    .about p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0 130px;
+    white-space: pre-line;
+}
+
+    .about a {
+        color: #6b3400;
+        font-weight: 700px;
+        font-family: 'Merienda', cursive;
+    }
+
+    .about a:hover {
+        cursor: pointer;
+        color: #000;
+    }
+
+    .name {
+        font-size: 30px;
+        font-family: 'Merienda', cursive;
+        font-style: oblique;
+        font-weight: 700;
+        z-index: 2;
+        margin-bottom: 40px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        padding: 0 60px;
+    }
+
+    .name span {
+        background-color: #b4926b;
+        padding: 0 15px;
+        position: relative;
+        margin-top: 45px;
+    }
+
+    .link {
+        margin-top: 40px;
+        color: #6b3400;
+        font-weight: 700px;
+        font-size: 35px;
+        font-family: 'Merienda', cursive;
+        text-decoration: none;
+
+    }
+    .link:hover {
+        cursor: pointer;
+        color: #000000;
+    }
+
+    .link:visited {
+        color: #57504d;
+    }
+
+.products {
+    background: url(./backgroundd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+}
+
+    .products p {
+        text-align: center;
+        font-family: 'Merienda', cursive;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 60 130px;
+        white-space: pre-wrap;
+}
+
+    .galery {
+        width: 90%;
+        margin: auto;
+        list-style: none;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center space-around;
+    } 
+
+        .galery li {
+            margin: 5px;
+            margin-top: 2px;
+        }
+    
+        .galery img {
+            width: 250px;
+            height: 250px;
+            margin-top: 70px;
+            border-radius: 15px;
+            border: 5px solid rgba(153, 149, 149, 0.8);
+            box-shadow: 5px 10px 15px #000;
+        }
+
+            .galery img:hover {
+                transform: scale(1.2);
+            }
+
+        .modal {
+            display: none;
+
+        }
+            
+            .modal:target {
+                display: block;
+                position: fixed;
+                background: rgba(0,0,0,.5);
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+                .modal h3 {
+                    color: #fff;
+                    font-size: 50px;
+                    text-align: center;
+                    margin: 15px 0;
+                    font-family: 'Merienda', cursive;
+                    text-shadow: 2px 2px black, -1px -1px #333;
+                }
+
+                .image {
+                    width: 100%;
+                    height: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .image a {
+                    color: #fff;
+                    font-size: 100px;
+                    font-weight: 800;
+                    text-decoration: none;
+                    margin: 0 13px;
+                    margin-top: 70px;
+                }
+
+                .image a:nth-child(2) {
+                    margin: 0;
+                    height: 100%;
+                }
+
+                .image img {
+                    width: 550px;
+                    height: 150%;
+                    max-width: 100%;
+                    border: 10px solid #b9a294;
+                    box-sizing: border-box;
+                }
+.close {
+    display: flex;
+    align-items: column;
+    justify-content: center;
+    font-weight: 700;
+    color: #fff;
+    width: 25px;
+    height: 100px;
+    font-size: 28px;
+    margin: 10px auto;
+    padding: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Merienda', cursive;
+    text-shadow: 2px 2px black, -1px -1px #333;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+    background-color: white;
+    padding: 25px;
+    margin: 45px;
+    width: 100%;
+}
+
+    th, td {
+        padding: 20px;
+        font-family: 'Merienda', cursive;
+        font-size: 14px;
+    }
+
+    thead {
+        background-color: #6b3400;
+        border-bottom: solid 3px #333;
+        color: white;
+        font-family:  'Merienda', cursive;
+        font-size: 17px;
+        font-weight: 300;
+    }
+
+    thead:hover {
+        color: black;
+    }
+
+    tr:nth-child(even){
+        background-color: #ddd;
+    }
+
+        tr:hover {
+            background-color: #cf9241;
+        }
+
+#number {
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #1cd444;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+         #number:hover {
+                color: #000;
+        }
+
+.contact {      
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -50px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}
+
+    .contact a {
+        text-decoration: none;
+        color: black;
+        width: 100px;
+        margin: 10px;
+        padding: 10px;
+        margin-top: -50;
+    }
+
+    .contact p {
+        text-align: center;
+        font-family: 'Merienda', cursive;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 0 20px 50px 0;
+        white-space: normal;
+}
+
+    .social {
+        position: fixed;
+        left: 0;
+        top: 200px;
+        z-index: 100;
+    }
+
+    .social ul {
+        list-style: none;
+    }
+
+    .social ul li a {
+        display: inline-block;
+        color: #FFF;
+        background: #000;
+        padding: 15px 16px;
+        margin-top: -3px;
+        width: 60px;
+        height: 60px;
+        text-decoration: none;
+        border-radius: 100px;
+        transition: all 0.3s;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+}
+
+    .social ul li a:hover {
+        background: #000;
+}
+
+.social ul li .fa-instagram {background:radial-gradient(circle at 30% 107%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); font-weight: 500; font-size: 32px;}
+.social ul li .fa-whatsapp {background: #1cd444; font-weight: 500; font-size: 32px;}
+
+footer {    
+    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    height: 120px;
+    padding: 0 15px;
+    margin-top: 45px;
+}
+
+    footer h1 {
+        font-family: 'Merienda', cursive;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: 700;
+        color: #302626;
+        text-align: left;
+        padding: 15px;
+    }
+
+    footer span {
+        font-family: 'Merienda', cursive;
+        font-size: 15px;
+        font-weight: 500;
+        color: #000;
+        text-align: center;
+        padding: 20px;
+        white-space: nowrap;
+    }

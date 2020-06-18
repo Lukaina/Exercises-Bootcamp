@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKI,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,aAAa;EAC/B,MAAM,EALL,CAAC;EAMF,OAAO,EALL,CAAC;EAMH,eAAe,EAAE,KAAK;CACzB;;AAYL,AAAA,IAAI,CAAC;EATC,KAAK,EAUQ,KAAK;EATlB,MAAM,EASc,KAAK;EARzB,SAAS,EAQkB,IAAI;EAP/B,KAAK,EAhBH,IAAI;EAiBN,UAAU,EAMuB,sBAAoB;EALrD,aAAa,EAK0C,IAAI;EAJ3D,MAAM,EAIuD,IAAI;CACtE",
+    "sources": [
+        "ejercicio8.scss"
+    ],
+    "names": [],
+    "file": "ejercicio8.css"
+}

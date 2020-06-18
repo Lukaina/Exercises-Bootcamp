@@ -1,0 +1,24 @@
+.title {
+  color: #2E86C1;
+  font-family: arial, sans-serin;
+  font-size: 4em;
+  text-align: center;
+  text-shadow: black;
+  text-shadow: 3px 3px rgba(0,0,0,.3);
+}
+
+.subtitle {
+  font-family: arial, sans-serin;
+  font-size: 2em;
+  font-style: oblique;
+}
+
+#result {
+  background-color: #82cce0;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1em;
+  border: 1px solid black;
+}
