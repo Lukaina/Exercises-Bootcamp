@@ -185,14 +185,14 @@ body {
 }
 
     .galery {
-        width: 90%;
+        width: 100%;
         margin: auto;
         list-style: none;
         padding: 10px;
         box-sizing: border-box;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center space-around;
+        justify-content: space-around;
     } 
 
         .galery li {
@@ -311,13 +311,19 @@ table {
         color: black;
     }
 
-    tr:nth-child(even){
+    tbody tr:nth-child(even){
         background-color: #ddd;
     }
+    
+    tbody tr:nth-child(odd){
+        background-color: white;
+    }
 
-        tr:hover {
+        tbody tr:hover,
+            thead tr:hover {
             background-color: #cf9241;
         }
+        
 
 #number {
     width: 250px;
