@@ -67,6 +67,10 @@ html, body, .container {
                 padding: 15px;
                 color: black;
                 cursor: pointer;
+                border-bottom: 2px solid #FFF;
+                left: 18px;
+                right: 18px;
+                bottom: -4px;
             }
 
             .nav__item {
@@ -141,22 +145,33 @@ html, body, .container {
             border-radius: 10px;
             text-align: left;
             position: relative;
+            padding-bottom: 20px;
             -webkit-border-radius: 10px;
             -moz-border-radius: 10px;
             -ms-border-radius: 10px;
             -o-border-radius: 10px;
-}
+        }
+
+        .new h2 {
+            text-align: center;
+        }
+
+        .new:hover::before {
+            opacity: 1;
+        }
 
         .new::before {
             content: "";
             height: 15px;
-            left: 40px;
-            right: 40px;
+            width: 15px;
+            right: 0px;
             position: absolute;
             bottom: 0px;
-            border-radius: 100%;
-            box-shadow: 0 10px 5px 0 black;
-            z-index: -1;
+            border-radius: 10px 0 10px 0;
+            z-index: 2;
+            opacity: 0;
+            background-color: #6f47ff;
+            transition: opacity 200ms linear;
         }    
 
         .new img {
@@ -177,22 +192,25 @@ html, body, .container {
             color: #5a5858;
         }
 
-        .new h2 a {
+        .new a:first-of-type {
             font-family: 'Girassol';
             font-size: 25px;
             text-decoration: none;
-            text-align: justify;
+            text-align: center;
             color:  #002a38;
             padding: 7px;
-            margin-top: 20px;
         }
 
-        .new a {
+        .new a:last-child {
             font-family: 'Girassol';
             font-size: 18px;
             text-decoration: none;
             text-align: center;
             color: #002a38;
+            position: absolute;
+            bottom: 15px;
+            left: 0;
+            right: 0;
         }
 
             .new h2 a:hover {
@@ -211,10 +229,12 @@ html, body, .container {
         }
 
     .banner {
-        width: 830px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
         height: 100px;
-        margin-left: 70px;
-        margin-top: 5px;
+        /* margin-left: 70px; */
+        margin: 5px 20px 0 20px;
         border: 3px solid black;
         animation: banner 32s infinite;
         padding: 5px;
@@ -268,13 +288,13 @@ html, body, .container {
         font-size: 20px;
     }
 
-    .opinion span {
+    .opinion div {
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         color: whitesmoke;
         font-size: 15px;
-        margin-top: -30px;
         padding: 5px;
+        width: 100%;
     }
 
 .footer {
