@@ -11,8 +11,9 @@
     <div class="form_container">
       <h1>Form</h1>
       <form action="./confirmacion.html" method="POST">
+        <div class="info">
         <div>
-          <label for="name">Name:</label>
+          <span for="name">Name:</span>
           <input
             type="text"
             id="name"
@@ -21,7 +22,7 @@
           />
         </div>
         <div>
-          <label for="lastname">Last Name:</label>
+          <span for="lastname">Last Name:</span>
           <input
             type="text"
             id="lastname"
@@ -30,7 +31,7 @@
           />
         </div>
         <div>
-          <label for="">Email:</label>
+          <span for="">Email:</span>
           <input
             type="text"
             id="email"
@@ -39,10 +40,11 @@
           />
         </div>
         <div>
-          <label for="date">Date:</label>
+          <span for="date">Date:</span>
           <input type="date" id="date" name="date" />
-        </div class="group-radio">
-        <div>
+        </div>
+      </div>
+        <div class="group-radio"> 
           <p>Gender:</p>
           <input type="radio" name="gender" value="female" id="female" />
           <label for="female">Female</label>
@@ -74,28 +76,27 @@
             <label for="user_reason"
               >¿Why are you interested in applying for the scholarship?</label
             >
-          </div>
-          <br />
-          <textarea
+            <textarea
             name="user_reason"
             id="user_reason"
             cols="40"
             rows="5"
             placeholder="Write here your reasons..."
           ></textarea>
+          </div>
         </div>
         <div class="password">
-          <p>Password:</p>
+          <span>Password:</span>
           <input
             type="password"
             id="identifier"
             name="name"
             placeholder="*****"
           />
-          <div class="buttons">
-            <button type="submit" onclick="Sendform();">Send</button>
-            <button type="reset">Reset</button>
-          </div>
+        </div>
+        <div class="buttons">
+          <button type="submit" onclick="Sendform();">Send</button>
+          <button type="reset">Reset</button>
         </div>
       </form>
     </div>
