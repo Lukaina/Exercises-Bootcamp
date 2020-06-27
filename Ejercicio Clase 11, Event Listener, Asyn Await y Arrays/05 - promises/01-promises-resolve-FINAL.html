@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" type="icon" href="icon.png" />
+  <title>Promises</title>
+</head>
+
+<body>
+
+  <script>
+
+    // Asincronismo: en qué momento pasa cada cosa. Sólo puedo correr una cosa a la vez en JS. Cuando quiera que unas tareas se ejecuten, sean llamadas.
+    // Promesa: Guarda el resultado de una operación asincrona. Ejemplo: Timers, que se ejecutarán en el futuro.  
+
+    // console.log('Hola');
+    // setTimeout(function() {
+    //     console.log('Cómo estás?');
+    // } , 2000);
+    // console.log('Adiós');
+    
+    //Pedido en espera: PROMESA DE UNA PIZZA. Las promesas se resuelven cuando estén listas.
+    function orderPizza(flavor) {
+      const pizzaPromise = new Promise(function(resolve, reject){
+        //Esperar que hagan la pizza.
+        setTimeout(function(){
+            //Cuando esté lista la pizza(resolver la promesa)
+        resolve(`Aquí tienes tu pizza de ${flavor} 🍕`);
+        }, 2000);
+      
+        //Si pasa algo con el pedido(rechazar la promesa)
+
+      });
+      return pizzaPromise;
+    }
+    
+    // const champiñonespizza = orderPizza('champiñones');
+    // const cheeseveganpizza = orderPizza('cheese vegan');
+    // // console.log(champiñonespizza);
+    // // console.log(cheeseveganpizza);
+
+    // //Resolver la promesa:
+    // champiñonespizza.then(function(pizza) {
+    //   console.log(pizza);
+    //   console.log('Recibido');
+    // });
+
+    //Anidar varias promesas:
+    // orderPizza('cheesevegan')
+    //   .then(function(pizza){
+    //     console.log(pizza);
+    //     return orderPizza('BBQ');//Promesa
+    //   })
+    //   .then(function(pizza){
+    //     console.log(pizza);
+    //     return orderPizza('Margarita');//Promesa
+    //   })
+    //   .then(function(pizza){
+    //     console.log(pizza);
+    //   });
+
+    //Resolver varias promesas al mismo tiempo:
+    const pizza1 = orderPizza('cheesevegan');
+    const pizza2 = orderPizza('champiñones');
+    const pizza3 = orderPizza('BBQ');
+
+    const megaOrder = Promise.all([pizza1, pizza2, pizza3]);
+
+    //Para resolver esa promesa:
+    megaOrder.then(function(pizzas) {
+      console.log(pizzas);
+    });
+    
+    //EJERCICIO!!!
+    async function Order(){ 
+      console.log('Pedir pizza vegana.');
+      const pizza = await orderPizza('Champiñones'); 
+      console.log(pizza);
+    }
+    
+    Order();
+
+      //-----
+
+    // async function Order(){ 
+    //   console.log('Pedir pizza vegana.');
+    //   const pizza = await orderPizza('CheeseVegan'); 
+    //   console.log(pizza);
+    // }
+    
+    // Order();
+
+    //-----
+
+    // async function Order(){ 
+    //   console.log('Pedir pizza vegana.');
+    //   const pizza = await orderPizza('BBQ'); 
+    //   console.log(pizza);
+    // }
+    
+    // Order();
+
+  </script>
+</body>
+
+</html>
+
