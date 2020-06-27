@@ -1,105 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scholarship Form</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="icon" href="icon.png" />
-  </head>
-  <body>
-    <div class="form_container">
-      <h1>Form</h1>
-      <form action="./confirmacion.html" method="POST">
-        <div class="info">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scholarship Form</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="icon" href="icon.png" />
+</head>
+
+<body>
+  <div class="form_container">
+    <h1>Form</h1>
+    <form action="./confirmacion.html" method="POST">
+      <div class="info">
         <div>
           <span for="name">Name:</span>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Enter your name"
-          />
+          <input type="text" id="name" name="name" placeholder="Enter your name" />
         </div>
         <div>
           <span for="lastname">Last Name:</span>
-          <input
-            type="text"
-            id="lastname"
-            name="lastname"
-            placeholder="Enter your last name"
-          />
+          <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" />
         </div>
         <div>
-          <span for="">Email:</span>
-          <input
-            type="text"
-            id="email"
-            name="email"
-            placeholder="ejemplo@mail.com"
-          />
+          <span for="email">E-mail:</span>
+          <input type="text" id="email" name="email" placeholder="example@mail.com" />
         </div>
         <div>
           <span for="date">Date:</span>
           <input type="date" id="date" name="date" />
         </div>
       </div>
-        <div class="group-radio"> 
-          <p>Gender:</p>
-          <input type="radio" name="gender" value="female" id="female" />
-          <label for="female">Female</label>
-          <br />
-          <input type="radio" name="gender" value="male" id="male" />
-          <label for="male">Male</label>
-          <br />
-          <input type="radio" name="gender" value="other" id="other" />
-          <label for="other">Other</label>
+      <div class="group-radio">
+        <p>Gender:</p>
+        <input type="radio" name="gender" value="female" id="female" />
+        <label for="female">Female</label>
+        <br />
+        <input type="radio" name="gender" value="male" id="male" />
+        <label for="male">Male</label>
+        <br />
+        <input type="radio" name="gender" value="other" id="other" />
+        <label for="other">Other</label>
+      </div>
+      <div>
+        <p>Areas of interest:</p>
+        <input type="checkbox" name="interest" id="data_science" value="data_science" />
+        <label for="data_science">Data science</label>
+        <br />
+        <input type="checkbox" name="interest" id="math" value="math" />
+        <label for="math">Pure math</label>
+        <br />
+        <input type="checkbox" name="interest" id="logic" value="logic" />
+        <label for="logic">Mathematical logic</label>
+      </div>
+      <div>
+        <div class="reason">
+          <label for="user_reason">¿Why are you interested in applying for the scholarship?</label>
+          <textarea name="user_reason" id="user_reason" cols="40" rows="5"
+            placeholder="Write here your reasons..."></textarea>
         </div>
-        <div>
-          <p>Areas of interest:</p>
-          <input
-            type="checkbox"
-            name="interest"
-            id="data_science"
-            value="data_science"
-          />
-          <label for="data_science">Data science</label>
-          <br />
-          <input type="checkbox" name="interest" id="math" value="math" />
-          <label for="math">Pure math</label>
-          <br />
-          <input type="checkbox" name="interest" id="logic" value="logic" />
-          <label for="logic">Mathematical logic</label>
-        </div>
-        <div>
-          <div class="reason">
-            <label for="user_reason"
-              >¿Why are you interested in applying for the scholarship?</label
-            >
-            <textarea
-            name="user_reason"
-            id="user_reason"
-            cols="40"
-            rows="5"
-            placeholder="Write here your reasons..."
-          ></textarea>
-          </div>
-        </div>
-        <div class="password">
-          <span>Password:</span>
-          <input
-            type="password"
-            id="identifier"
-            name="name"
-            placeholder="*****"
-          />
-        </div>
-        <div class="buttons">
-          <button type="submit" onclick="Sendform();">Send</button>
-          <button type="reset">Reset</button>
-        </div>
-      </form>
-    </div>
-    <script src="form.js"></script>
-  </body>
+      </div>
+      <div class="password">
+        <span>Password:</span>
+        <input type="password" id="identifier" name="name" placeholder="*****" />
+      </div>
+      <div class="buttons">
+        <button type="submit" onclick="Sendform();">Send</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+  <footer class="footer">
+    <h2>Bootcamp PionerasDev & Globant</h2>
+
+      <section class="footer__author">
+        ©Verónica Alcaraz👩‍💻 - 2020
+      </section>
+  <script src="form.js"></script>
+</body>
 </html>
