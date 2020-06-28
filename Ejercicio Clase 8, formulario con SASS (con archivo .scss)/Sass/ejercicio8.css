@@ -1,16 +1,75 @@
 body {
-  background-image: url(form.jpg);
   margin: 0;
   padding: 0;
   background-size: cover;
+  background-color: #c0b9b9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-form {
+.form-container {
   width: 450px;
   height: 550px;
   font-size: 25px;
   color: #000;
+  background: #FFF;
   border-radius: 13px;
   margin: auto;
+}
+
+.form-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-container form .name, .form-container form .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.form-container form .comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-container form .btn {
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+  font-family: Century Gothic, sans-serif;
 }
 /*# sourceMappingURL=ejercicio8.css.map */

@@ -10,6 +10,11 @@ $grey: #c0b9b9;
         padding: $padding;
         background-size: cover;
         background-color: $grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
     }
 
 @mixin form-container ($width, $height, $size, $background, $border, $m) {
@@ -24,6 +29,30 @@ $grey: #c0b9b9;
 
 .form-container {
     @include form-container (450px, 550px, 25px, #FFF, 13px, auto);
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .name, .email {
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+            margin-bottom: 20px;
+        }
+
+        .comment {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .btn {
+            margin-top: 30px;
+        }
+
+    }
 }
 
 @mixin h2 ($ta, $padding, $font) {
