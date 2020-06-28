@@ -1,3 +1,54 @@
+//AUTO-EJERCICIOS
+
+//1) Write a JavaScript function to get the first element of an array.
+
+// ARROW FUNCTION
+// const frutas = array => array[0];
+
+// function fruits(array) {
+//        return array[0];
+//        //console.log(array[0]);
+// }
+
+// const vegetables = ['Tomato', 'Lettuce', 'Carrot', 'Onion'];
+// console.log(vegetables[0]);
+// console.log(fruits(vegetables));
+
+// // ---------------
+
+// //2) Write a JavaScript program which prints the elements of the following array [7, 0, 7, 27]
+
+// const num = [7, 0, 7, 27];
+// num.forEach(element => console.log(element));
+
+// // ---------------
+
+// //3) Write a JavaScript program which prints the elements of the following array [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]
+
+// const numeros = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]];
+// numeros.forEach(elements => console.log(elements));
+// /*function numeros(array) {
+// array.forEach(elements => console.log(elements));
+// }*/
+
+// // ---------------
+
+// //4) Write a JavaScript function to remove. 'null', '0', '', 'false' from this array:
+// //[1,2,3,'', false, null, 3, true, '']
+
+// const arrayToRemove = [1, 2, 3, '', false, null, 3, true, ''];
+// function removeValuesFromArray(array) {
+//        const valuesToRemove = [null, 0, '', false];
+//        return array.filter(item => !valuesToRemove.includes(item));
+// }
+
+// // ---------------
+
+// //length of numbers.
+// const numbers = [7, 0, 7, 27];
+// console.log(numbers.length);
+
+
 // ---------------
 // EJERCICIO 01 (mix)
 // ---------------
@@ -191,7 +242,7 @@
 
 // function remitir( patient ) {
 //     let room, genderEnd;
-    
+
 //     if ( patient.age < 18 ) {
 //         room = 'pediatría';
 //     } else {
