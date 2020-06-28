@@ -10,7 +10,7 @@ html, body, .container {
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
-   
+
 }
 .header {
     background-image: url(background.jpg);
@@ -24,7 +24,7 @@ html, body, .container {
         align-items: center;
         justify-content: center;
         text-align: justify;
-}   
+}
 
     .article-title span {
         width: 50%;
@@ -42,7 +42,7 @@ html, body, .container {
         /* z-index: 1;
         position: absolute; */
     }
-   
+
     .menu {
         height: 100px;
         display: flex;
@@ -116,8 +116,7 @@ html, body, .container {
     /* background: lightsalmon; */
     height: calc(100vh - 140px);
     display: flex;
-    overflow-y: auto;
-}   
+}
     /* Scroll noticias y opinión*/
     .news::-webkit-scrollbar {
         width: 12px;
@@ -132,8 +131,9 @@ html, body, .container {
         background: #d6d0d0;
         flex: 80%;
         display: flex;
-        height: 210%;
+        height: 100%;
         flex-wrap: wrap;
+        overflow-y: auto;
     }
 
         .new {
@@ -172,7 +172,7 @@ html, body, .container {
             opacity: 0;
             background-color: #6f47ff;
             transition: opacity 200ms linear;
-        }    
+        }
 
         .new img {
             width: 100%;
@@ -192,7 +192,11 @@ html, body, .container {
             color: #5a5858;
         }
 
-        .new a:first-of-type {
+        .new__title {
+            display: flex;
+            justify-content: center;
+        }
+        .new__title a {
             font-family: 'Girassol';
             font-size: 25px;
             text-decoration: none;
@@ -201,7 +205,7 @@ html, body, .container {
             padding: 7px;
         }
 
-        .new a:last-child {
+        .new__read-more a {
             font-family: 'Girassol';
             font-size: 18px;
             text-decoration: none;
@@ -229,12 +233,16 @@ html, body, .container {
         }
 
     .banner {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
         display: flex;
         justify-content: center;
         width: 100%;
         height: 100px;
         /* margin-left: 70px; */
-        margin: 5px 20px 0 20px;
+        margin: 5px 20px 10px 20px;
         border: 3px solid black;
         animation: banner 32s infinite;
         padding: 5px;
@@ -257,14 +265,15 @@ html, body, .container {
         70%, 100% {
             background-image: url(banner2.gif);
         }
-           
+
     }
 
 .comments {
     display: flex;
     flex-direction: column;
     flex: 30%;
-    height: calc(100vh - 100px);
+    height: 100%;
+    overflow-y: auto;
     }
 
     .opinion{
@@ -308,7 +317,7 @@ html, body, .container {
     font-style: italic;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .footer__author {
@@ -317,8 +326,45 @@ html, body, .container {
     font-weight: 500;
     color: #fff;
     text-align: center;
-    padding: -5px;
+    /* padding: -5px; */
 }
 
 
 
+@media screen and (max-width: 860px) {
+    .news {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+    .news-list {
+        overflow-y: initial;
+        height: auto;
+    }
+    .comments {
+        flex-direction: row;
+        height: auto;
+        overflow-y: initial;
+        padding: 10px;
+    }
+
+    .opinion {
+        margin: 0 10px;
+        box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.8);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .new__title a, .new__read-more a {
+        font-size: 1.2rem;
+    }
+
+    .news-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner {
+        grid-column: 1 / span 2;
+        width: 95%;
+    }
+}
