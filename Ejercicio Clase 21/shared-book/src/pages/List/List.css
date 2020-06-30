@@ -1,0 +1,11 @@
+.add-button {
+    top: 30px;
+    right: 20px;
+    position: absolute;
+  }
+  
+  .share-book-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }

@@ -1,0 +1,17 @@
+.card {
+    box-shadow: 0 8px 6px -6px black;
+    margin: 30px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .card img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  .card p {
+    background: white;
+    padding: 20px;
+    margin: 0px;
+  }

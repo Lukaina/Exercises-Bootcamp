@@ -1,0 +1,20 @@
+.floating-icon {
+    background-color: #f5a623;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .floating-icon:hover {
+    cursor: pointer;
+  }
+  
+  .floating-icon span {
+    margin-bottom: 6px;
+    font-size: 1.5rem;
+    color: white;
+  }

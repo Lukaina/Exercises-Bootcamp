@@ -1,0 +1,36 @@
+.close-button {
+    top: 30px;
+    right: 20px;
+    position: absolute;
+    background-color: #9b9b9b;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .form input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #dde0e0;
+  }
+  
+  .form button {
+    border: none;
+    background-color: #f5a623;
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .form button:hover {
+    cursor: pointer;
+  }
+  
+  .form h2 {
+    text-align: center;
+  }
