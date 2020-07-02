@@ -3,32 +3,60 @@ $white: #FFF;
 $font: Century Gothic, sans-serif;
 $margin: 0;
 $padding: 0;
-$grey: #c0b9b9;
+$gradiente: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+$bsize: cover;
+$p: 10px;
+$d: flex;
+$ai: center;
+$jc: center;
 
     body {
         margin: $margin;
         padding: $padding;
-        background-size: cover;
-        background-color: $grey;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        background-image: url('form.jpg');
+        display: $d;
+        align-items: $ai;
+        justify-content: $jc;
         height: 100vh;
         width: 100vw;
+        background-size: $bsize;
+
+        .footer span {
+            font-size: 30px;
+            font-style: italic;
+            color: $color;
+            text-align: right;
+            padding: $p;
+            margin-bottom: 5px;
+            font-family: $font;
+            
+            .footer__author {
+                font-size: 50px;
+                font-weight: 500;
+                color: $color;
+                text-align: center;
+                padding: $p;
+                margin-top: -20px;
+                font-family: $font;
+        
+            }
+        }
     }
 
-@mixin form-container ($width, $height, $size, $background, $border, $m) {
-      width: $width;
-      height: $height;
-      font-size: $size;
-      color: $color;
-      background: $white;
-      border-radius: $border;
-      margin: $m;
+@mixin form-container ($width, $height, $size, $background, $br, $m, $border, $op) {
+    width: $width;
+    height: $height;
+    font-size: $size;
+    color: $color;
+    background: $white;
+    border-radius: $br;
+    margin: $m;
+    border: $border;
+    opacity: $op;
 }
 
 .form-container {
-    @include form-container (450px, 550px, 25px, #FFF, 13px, auto);
+    @include form-container (375px, 520px, 20px, #FFF, 13px, auto, 1px solid #2fb665, 0.8);
 
     form {
         display: flex;
@@ -38,29 +66,51 @@ $grey: #c0b9b9;
         .name, .email {
             display: flex;
             justify-content: space-between;
-            width: 60%;
-            margin-bottom: 20px;
+            width: 70%;
+            margin-bottom: 10px;
+            font-family: $font;
         }
 
         .comment {
             display: flex;
             flex-direction: column;
             align-items: center;
+            font-family: $font;
+            margin: 20px;
+        }
+      
+        .comment textarea {
+            margin: 10px;
         }
 
         .btn {
-            margin-top: 30px;
-        }
+            margin-bottom: 10px;
+          
+           button {
+            background-color: $white;
+            color: $color;
+            font-weight: 600;
+            border: 2px solid #4CAF50;
+            padding: 15px 40px;
+            font-size: 20px;
+            font-family: $font;
+            border-radius: 5px;
+            
+                &:hover {background-image: $gradiente}
 
+          }
+        }
     }
 }
 
-@mixin h2 ($ta, $padding, $font) {
+@mixin h2 ($ta, $padding, $font, $size) {
     text-align: $ta;
     padding: $padding;
     font-family: $font;
+    font-size: $size;
 }
 
 h2 {
-    @include h2 (center, 20px, $font);
+    @include h2 (center, 5px, $font, 40px);
 }
+

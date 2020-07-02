@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-size: cover;
-  background-color: #c0b9b9;
+  background-image: url("form.jpg");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,16 +13,39 @@ body {
           justify-content: center;
   height: 100vh;
   width: 100vw;
+  background-size: cover;
+}
+
+body .footer span {
+  font-size: 30px;
+  font-style: italic;
+  color: #000;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-family: Century Gothic, sans-serif;
+}
+
+body .footer span .footer__author {
+  font-size: 50px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  margin-top: -20px;
+  font-family: Century Gothic, sans-serif;
 }
 
 .form-container {
-  width: 450px;
-  height: 550px;
-  font-size: 25px;
+  width: 375px;
+  height: 520px;
+  font-size: 20px;
   color: #000;
   background: #FFF;
   border-radius: 13px;
   margin: auto;
+  border: 1px solid #2fb665;
+  opacity: 0.8;
 }
 
 .form-container form {
@@ -46,8 +68,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 60%;
-  margin-bottom: 20px;
+  width: 70%;
+  margin-bottom: 10px;
+  font-family: Century Gothic, sans-serif;
 }
 
 .form-container form .comment {
@@ -61,15 +84,37 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: Century Gothic, sans-serif;
+  margin: 20px;
+}
+
+.form-container form .comment textarea {
+  margin: 10px;
 }
 
 .form-container form .btn {
-  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.form-container form .btn button {
+  background-color: #FFF;
+  color: #000;
+  font-weight: 600;
+  border: 2px solid #4CAF50;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-family: Century Gothic, sans-serif;
+  border-radius: 5px;
+}
+
+.form-container form .btn button:hover {
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 }
 
 h2 {
   text-align: center;
-  padding: 20px;
+  padding: 5px;
   font-family: Century Gothic, sans-serif;
+  font-size: 40px;
 }
 /*# sourceMappingURL=ejercicio8.css.map */

@@ -6,29 +6,34 @@
     <link rel="stylesheet" href="./Sass/ejercicio8.css" />
     <title>Formulario SASS</title>
   </head>
-<body>
-<div class="form-container">
-  <form action="#" method="POST">
-    <h2>Formulario</h2>
-        <div class="name">
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-        </div>
-        <div class="email">
-            <label for="correo">Correo:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Correo">
-        </div>
-        <div class="comment">
-            <label for="comentario">Comentario:</label>
-            <textarea name="comentario" placeholder="Escriba aquí su comentario..." id="comentario" cols="30" rows="10"></textarea>
-        </div>
-        <div class="btn">
-          <input type="submit" name="submit" tabindex="2" value="Enviar"/>
-          <input type="reset" name="reset" tabindex="2" value="Borrar"/>
-        </div>
-  </form>
-  <footer>
-    
+  <body>
+  <div class="form-container">
+    <form action="#" method="POST">
+      <h2>Formulario</h2>
+          <div class="name">
+              <label for="nombre">Nombre:</label>
+              <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+          </div>
+          <div class="email">
+              <label for="correo">Correo:</label>
+              <input type="text" name="correo" id="correo" placeholder="ejemplo@mail.com">
+          </div>
+          <div class="comment">
+              <label for="comentario">Comentario:</label>
+              <textarea name="comentario" placeholder="Escriba aquí su comentario..." id="comentario" cols="35" rows="10"></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit" name="submit" tabindex="2" value="Enviar">Enviar</button>
+            <button type="reset" name="reset" tabindex="2" value="reset">Borrar</button>
+          </div>
+    </form>
+  </div>
+  <footer class="footer">
+    <span>Bootcamp PionerasDev & Globant</span>
+
+      <section class="footer__author">
+        ©Verónica Alcaraz👩‍💻 - 2020
+      </section>
   </footer>
-</div>
-</body>
+  </body>
+</html>
