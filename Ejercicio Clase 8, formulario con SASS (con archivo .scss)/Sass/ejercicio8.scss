@@ -5,6 +5,7 @@ $margin: 0;
 $padding: 0;
 $gradiente: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 $bsize: cover;
+$gradiente2: linear-gradient(120deg, rgba(#d4fc79,.5) 0%, rgba(#96e6a1,.5) 100%);
 $p: 10px;
 $d: flex;
 $ai: center;
@@ -20,23 +21,35 @@ $jc: center;
         height: 100vh;
         width: 100vw;
         background-size: $bsize;
+        position: relative;
 
-        .footer span {
-            font-size: 30px;
-            font-style: italic;
-            color: $color;
-            text-align: right;
-            padding: $p;
-            margin-bottom: 5px;
-            font-family: $font;
+        &::before {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-image: $gradiente2;
+        }
+
+        .footer {
+            z-index: 2;
+            span {
+                font-size: 30px;
+                font-style: italic;
+                color: $color;
+                text-align: right;
+                padding: $p;
+                margin-bottom: 5px;
+                font-family: $font;
+            }
             
-            .footer__author {
-                font-size: 50px;
+            &__author {
+                font-size: 20px;
                 font-weight: 500;
                 color: $color;
                 text-align: center;
                 padding: $p;
-                margin-top: -20px;
+                margin-top: 0px;
                 font-family: $font;
         
             }
