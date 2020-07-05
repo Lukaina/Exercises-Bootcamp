@@ -5,7 +5,7 @@ $margin: 0;
 $padding: 0;
 $gradiente: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 $bsize: cover;
-$gradiente2: linear-gradient(120deg, rgba(#d4fc79,.5) 0%, rgba(#96e6a1,.5) 100%);
+$gradiente2: linear-gradient(120deg, rgba(#d4fc79,.6) 0%, rgba(#96e6a1,.6) 100%);
 $p: 10px;
 $d: flex;
 $ai: center;
@@ -51,6 +51,7 @@ $jc: center;
                 padding: $p;
                 margin-top: 0px;
                 font-family: $font;
+                font-weight: 500;
         
             }
         }

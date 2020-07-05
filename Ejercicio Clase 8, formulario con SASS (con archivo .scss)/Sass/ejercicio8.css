@@ -22,7 +22,7 @@ body::before {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(120deg, rgba(212, 252, 121, 0.5) 0%, rgba(150, 230, 161, 0.5) 100%);
+  background-image: linear-gradient(120deg, rgba(212, 252, 121, 0.6) 0%, rgba(150, 230, 161, 0.6) 100%);
 }
 
 body .footer {
@@ -47,6 +47,7 @@ body .footer__author {
   padding: 10px;
   margin-top: 0px;
   font-family: Century Gothic, sans-serif;
+  font-weight: 500;
 }
 
 .form-container {
