@@ -19,4 +19,8 @@
 **5⃣ Ejercicio Clase 5 - Revista prensa**
 👉 _https://lukaina.github.io/Exercises-Bootcamp/Ejercicio%20Clase%205,%20Revista%20prensa/_ 👈
 
+## 🟡 JAVASCRIPT 🟡 
+**7⃣ Ejercicio Clase 7 - Conditionals**
+👉 _https://lukaina.github.io/Exercises-Bootcamp/Ejercicio%20Clase%207%2C%20Conditionals%20JavaScript/Conditionals%20Ver%C3%B3nica%20-%20Bootcamp/conditionals.html_ 👈
+
 
