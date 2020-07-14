@@ -32,3 +32,7 @@
 
 **9⃣ Ejercicio Clase 9 - Functions**
 ▪ **_CodePen:_** 👉 _https://codepen.io/veroalcaraz/pen/QWjrMdW_ 👈
+
+**1⃣0⃣ Ejercicio Clase 10 - Practice scope, closure, objects, hoisting and DOM manipulation**
+▪ **_CodePen:_** 👉 _https://codepen.io/veroalcaraz/pen/ExPeZWV_ 👈
+
