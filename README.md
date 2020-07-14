@@ -4,3 +4,7 @@
 ## 🔹 HTML & CSS 🔹
 **1⃣ Ejercicio Clase 1 - Biografía**
 👉 _https://lukaina.github.io/Exercises-Bootcamp/Ejercicio%20Clase%201,%20Biograf%C3%ADa/bio/_ 👈
+**2⃣ Ejericio Clase 2 - Tienda**
+👉 _https://lukaina.github.io/Exercises-Bootcamp/Ejercicio%20Clase%202,%20Tienda/ejercicios/Homework/_ 👈
+
+
