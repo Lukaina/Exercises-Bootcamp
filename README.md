@@ -30,6 +30,7 @@
 👉 **CodePen:** _https://codepen.io/veroalcaraz/pen/QWjrMdW_ 👈
 
 ![functions1](https://user-images.githubusercontent.com/60724393/87392333-f1631400-c571-11ea-85d8-c5415c4a489a.png)
+![functions2](https://user-images.githubusercontent.com/60724393/87393046-2de33f80-c573-11ea-8772-c24a9928242e.png)
 
 
 
