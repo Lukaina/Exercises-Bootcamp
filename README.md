@@ -3,7 +3,7 @@
 
 ![alt text](https://media.istockphoto.com/vectors/coding-and-web-technology-shields-html5-css-javascriptreact-js-web-vector-id1189620146?k=6&m=1189620146&s=170667a&w=0&h=UfewBdxN5Pv5g7DZwY_Hh4YNQsWH_4ysYFYKY2eZpmg=) 
 
-## 🔹 HTML & CSS 🔹
+## 🔶🔹 HTML & CSS 🔹🔶
 **1⃣ Ejercicio Clase 1 - Biografía**
 👉 _https://lukaina.github.io/Exercises-Bootcamp/Ejercicio%20Clase%201,%20Biograf%C3%ADa/bio/_ 👈
 
