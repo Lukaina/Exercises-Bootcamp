@@ -14,4 +14,7 @@
 **4⃣ Ejercicio Clase 4 - Formulario de contacto**
 👉 _https://lukaina.github.io/Exercises-Bootcamp/Ejercicio%20Clase%204%2C%20Formulario%20de%20contacto/formulario4.html_ 👈
 
+**5⃣ Ejercicio Clase 5 - Revista prensa**
+👉 _https://lukaina.github.io/Exercises-Bootcamp/Ejercicio%20Clase%205,%20Revista%20prensa/_ 👈
+
 
