@@ -29,6 +29,6 @@
 **9⃣ Ejercicio Clase 9 - Functions**
 👉 **CodePen:** _https://codepen.io/veroalcaraz/pen/QWjrMdW_ 👈
 
-![functions1](https://user-images.githubusercontent.com/60724393/87394029-bdd5b900-c574-11ea-9213-0a624dcb394f.png)
+
 
 
