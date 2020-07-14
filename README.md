@@ -33,7 +33,13 @@
 **9⃣ Ejercicio Clase 9 - Functions**
 ▪ **_CodePen:_** 👉 _https://codepen.io/veroalcaraz/pen/QWjrMdW_ 👈
 
-![functions1](https://user-images.githubusercontent.com/60724393/87452290-a9baa780-c5c6-11ea-90a3-74bb66898896.png) 
+![functions1](https://user-images.githubusercontent.com/60724393/87453385-09fe1900-c5c8-11ea-914e-db20add32b34.png) 
+![functions2](https://user-images.githubusercontent.com/60724393/87453411-15514480-c5c8-11ea-823b-6eba2de823da.png)
+![functions3](https://user-images.githubusercontent.com/60724393/87453454-1f734300-c5c8-11ea-9821-015f516cb186.png)
+![functions4](https://user-images.githubusercontent.com/60724393/87453491-2c903200-c5c8-11ea-897d-2a6f5570a909.png)
+![functionslength](https://user-images.githubusercontent.com/60724393/87453502-30bc4f80-c5c8-11ea-8241-d5ec1dcab204.png)
+
+
 
 
 
