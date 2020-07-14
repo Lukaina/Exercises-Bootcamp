@@ -1,7 +1,7 @@
 # ¡BOOTCAMP EJERCICIOS! 👩‍💻
 ¡Hola a todos/as! 👋 Estos son mis ejercicios para la Bootcamp PionerasDev & Globant 2020. A continuación, podrán ver mi camino por HTML, CSS, JS y ReactJS.
 
-![alt text](https://api.ed.team/public-files/bloginlineimg/3efa8bf4-5499-4bd2-92db-f50eebd804a3.PNG) 
+![alt text](https://media.istockphoto.com/vectors/coding-and-web-technology-shields-html5-css-javascriptreact-js-web-vector-id1189620146?k=6&m=1189620146&s=170667a&w=0&h=UfewBdxN5Pv5g7DZwY_Hh4YNQsWH_4ysYFYKY2eZpmg=) 
 
 ## 🔹 HTML & CSS 🔹
 **1⃣ Ejercicio Clase 1 - Biografía**
