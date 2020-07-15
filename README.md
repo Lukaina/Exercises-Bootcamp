@@ -36,3 +36,8 @@
 **1⃣0⃣ Ejercicio Clase 10 - Practice scope, closure, objects, hoisting and DOM manipulation**
 ▪ **_CodePen:_** 👉 _https://codepen.io/veroalcaraz/pen/ExPeZWV_ 👈
 
+**1⃣1⃣ Ejercicio Clase 11 - Event Listener, Async Await y Arrays**
+**_Propagation:_** 👉 _https://lukaina.github.io/Exercises-Bootcamp/Ejercicio%20Clase%2011%2C%20Event%20Listener%2C%20Asyn%20Await%20y%20Arrays/02%20-%20propagation/propagation.html_ 👈
+
+**_Promises (Async Await) y Arrays:_** ▪ **_CodePen:_** 👉 _https://codepen.io/veroalcaraz/pen/NWxLYbB_ 👈
+
