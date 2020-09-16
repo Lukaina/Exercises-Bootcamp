@@ -1,5 +1,5 @@
 # ¡BOOTCAMP EJERCICIOS! 👩‍💻
-¡Hola a todos/as! 👋 Estos son mis ejercicios para la Bootcamp PionerasDev & Globant 2020. A continuación, podrán ver mi camino por HTML, CSS, JS y ReactJS.
+¡Hola a todos/as! 👋 Estos son mis ejercicios del Bootcamp PionerasDev & Globant 2020. A continuación, podrán ver mi camino por HTML, CSS, JS y ReactJS.
 
 ![logos](https://user-images.githubusercontent.com/60724393/87395316-ca5b1100-c576-11ea-96c0-4e618b421127.jpg)
 
@@ -41,4 +41,7 @@
 **_Propagation:_** 👉 _https://lukaina.github.io/Exercises-Bootcamp/Ejercicio%20Clase%2011%2C%20Event%20Listener%2C%20Asyn%20Await%20y%20Arrays/02%20-%20propagation/propagation.html_ 👈
 
 **_Promises (Async Await) y Arrays:_** ▪ **_CodePen:_** 👉 _https://codepen.io/veroalcaraz/pen/NWxLYbB_ 👈
+
+## ⚛️ ReactJS ⚛️
+
 
