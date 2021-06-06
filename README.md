@@ -1,4 +1,4 @@
-# ¡BOOTCAMP EJERCICIOS! 👩‍💻
+# ¡Bootcamp Ejercicios! 👩‍💻
 ¡Hola a todos/as! 👋 Estos son mis ejercicios del Bootcamp PionerasDev & Globant 2020. A continuación, podrán ver mi camino por HTML, CSS, JS y ReactJS.
 
 ![logos](https://user-images.githubusercontent.com/60724393/87395316-ca5b1100-c576-11ea-96c0-4e618b421127.jpg)
@@ -19,7 +19,7 @@
 **5⃣ Ejercicio Clase 5 - Revista prensa**
 👉 _https://lukaina.github.io/Exercises-Bootcamp/Ejercicio%20Clase%205,%20Revista%20prensa/_ 👈
 
-## 🟡 JAVASCRIPT 🟡 
+## 🟡 JavaScript 🟡 
 **7⃣ Ejercicio Clase 7 - Conditionals**
 👉 _https://lukaina.github.io/Exercises-Bootcamp/Ejercicio%20Clase%207%2C%20Conditionals%20JavaScript/Conditionals%20Ver%C3%B3nica%20-%20Bootcamp/conditionals.html_ 👈
 
@@ -41,6 +41,9 @@
 **_Propagation:_** 👉 _https://lukaina.github.io/Exercises-Bootcamp/Ejercicio%20Clase%2011%2C%20Event%20Listener%2C%20Asyn%20Await%20y%20Arrays/02%20-%20propagation/propagation.html_ 👈
 
 **_Promises (Async Await) y Arrays:_** ▪ **_CodePen:_** 👉 _https://codepen.io/veroalcaraz/pen/NWxLYbB_ 👈
+
+**1⃣4⃣ Ejercicio Clase 14 - Testing**
+👉 _https://github.com/Lukaina/Exercises-Bootcamp/tree/master/Ejercicio%20Clase%2014%2C%20Testing_ 👈
 
 ## ⚛️ ReactJS ⚛️
 
